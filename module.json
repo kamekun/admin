@@ -1,0 +1,12 @@
+{
+    "id":"module-admin-a8b1f646-311e-414b-8a8b-8d8098af8eb34507183",
+    "name": "Admin",
+    "version":"v1.0.0",
+    "alias": "admin",
+    "description": "Make an Administrator page in 5 minutes",
+    "keywords": [],
+    "priority": 200,
+    "aliases": {},
+    "namespace":"BytePlatform\\Admin",
+    "requires": []
+}

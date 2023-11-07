@@ -1,0 +1,27 @@
+{
+    "name": "byteplatform/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nguyen Van Hau",
+            "email": "nguyenvanhaudev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["BytePlatform\\Admin\\AdminServiceProvider"],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+         "files": [
+            "helpers/constraint.php",
+            "helpers/function.php"
+        ],
+        "psr-4": {
+            "BytePlatform\\Admin\\": "src",
+            "BytePlatform\\Admin\\Database\\Factories\\": "database/factories",
+            "BytePlatform\\Admin\\Database\\Seeders\\": "database/seeders"
+        }
+    }
+}
