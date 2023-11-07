@@ -49,10 +49,17 @@ class AdminServiceProvider extends ServiceProvider
             }
         }
         Platform::Ready(function () {
+
             if (Request::isMethod('get')) {
                 // Only Get Request
                 if (!Platform::checkFolderPlatform()) Platform::makeLink();
                 if (byte_is_admin()) {
+                    add_filter(PLATFORM_CONFIG_JS, function ($rs) {
+                        return [
+                            ...$rs,
+                            'byte_shortcode_setting' => route('shortcode-setting'),
+                        ];
+                    });
                     Menu::DoRegister();
                 }
             }
