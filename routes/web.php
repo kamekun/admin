@@ -13,7 +13,22 @@
 
 use BytePlatform\Admin\Livewire\ShortcodeSetting;
 use Illuminate\Support\Facades\Route;
+use BytePlatform\Admin\Livewire\Auth\ForgotPassword;
+use BytePlatform\Admin\Livewire\Auth\Login;
+use BytePlatform\Admin\Livewire\Auth\Signup;
 
 Route::group(['middleware' => ['web', 'auth']], function () {
     Route::post('shortcode-setting/', ShortcodeSetting::class)->name('shortcode-setting');
+});
+
+Route::prefix(adminUrl())->middleware(\BytePlatform\Middleware\ThemeAdmin::class)->group(function () {
+    Route::name('admin.')->prefix('auth')->middleware('themelayout:none')->group(function () {
+        Route::get('login', route_theme(Login::class))->name('login');
+        Route::get('logout', route_theme(function () {
+            auth()->logout();
+            return redirect(route('admin.login'));
+        }))->name('logout');
+        Route::get('sign-up', route_theme(Signup::class))->name('sign-up');
+        Route::get('forgot-password', route_theme(ForgotPassword::class))->name('forgot-password');
+    });
 });
