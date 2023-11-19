@@ -67,7 +67,7 @@
             "dist": {
                 "type": "path",
                 "url": "./..",
-                "reference": "da8d9e66a1a3cdc9869b115497c90ac17a53dfa8"
+                "reference": "0f0b84319bd930675f3648948bd145b2333281da"
             },
             "type": "library",
             "extra": {
@@ -106,12 +106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BytePlatform/BytePlatform.git",
-                "reference": "efe1997838cfb28a5bf23ed5bd7e4fb6c7bbc48b"
+                "reference": "fd8dc6a6ecfbfdc6e78f444e5698dc8a8c4eabbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BytePlatform/BytePlatform/zipball/efe1997838cfb28a5bf23ed5bd7e4fb6c7bbc48b",
-                "reference": "efe1997838cfb28a5bf23ed5bd7e4fb6c7bbc48b",
+                "url": "https://api.github.com/repos/BytePlatform/BytePlatform/zipball/fd8dc6a6ecfbfdc6e78f444e5698dc8a8c4eabbf",
+                "reference": "fd8dc6a6ecfbfdc6e78f444e5698dc8a8c4eabbf",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-11-19T08:00:48+00:00"
+            "time": "2023-11-19T18:04:01+00:00"
         },
         {
             "name": "byteplatform/laravel",
@@ -2075,16 +2075,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.1.0",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "db1e02c645ae12a7cdee9b1ea0d65bf3aafc0f08"
+                "reference": "36fefba41947fa8b0cf0161330f5edb4ec7c23ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/db1e02c645ae12a7cdee9b1ea0d65bf3aafc0f08",
-                "reference": "db1e02c645ae12a7cdee9b1ea0d65bf3aafc0f08",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/36fefba41947fa8b0cf0161330f5edb4ec7c23ca",
+                "reference": "36fefba41947fa8b0cf0161330f5edb4ec7c23ca",
                 "shasum": ""
             },
             "require": {
@@ -2137,7 +2137,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.1.0"
+                "source": "https://github.com/livewire/livewire/tree/v3.2.0"
             },
             "funding": [
                 {
@@ -2145,7 +2145,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-03T15:05:18+00:00"
+            "time": "2023-11-19T13:30:45+00:00"
         },
         {
             "name": "monolog/monolog",
