@@ -49,7 +49,12 @@ class AdminServiceProvider extends ServiceProvider
             }
         }
         Platform::Ready(function () {
-
+            add_filter(PLATFORM_HOMEPAGE, function ($view) {
+                if (adminUrl() == '') {
+                    redirect(route('admin.dashboard'));
+                }
+                return $view;
+            });
             if (Request::isMethod('get')) {
                 // Only Get Request
                 if (!Platform::checkFolderPlatform()) Platform::makeLink();
