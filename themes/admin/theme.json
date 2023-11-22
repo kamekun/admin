@@ -9,7 +9,7 @@
   "hide": true,
   "admin": true,
   "parent": "tabler",
-  "namespace": "ByteTheme\\Admin",
+  "namespace": "SokeioTheme\\Admin",
   "aliases": {},
   "files": [],
   "locations": [

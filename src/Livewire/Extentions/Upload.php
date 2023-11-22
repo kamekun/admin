@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Extentions;
+namespace Sokeio\Admin\Livewire\Extentions;
 
-use BytePlatform\Component;
+use Sokeio\Component;
 
 class Upload extends Component
 {

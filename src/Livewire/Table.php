@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\ItemManager;
-use BytePlatform\Admin\Concerns\WithTableData;
+use Sokeio\Component;
+use Sokeio\Admin\ItemManager;
+use Sokeio\Admin\Concerns\WithTableData;
 
 class Table extends Component
 {

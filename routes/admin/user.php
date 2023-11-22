@@ -1,8 +1,8 @@
 <?php
 
-use BytePlatform\Admin\Crud\PermissionCrud;
-use BytePlatform\Admin\Crud\RoleCrud;
-use BytePlatform\Admin\Crud\UserCrud;
+use Sokeio\Admin\Crud\PermissionCrud;
+use Sokeio\Admin\Crud\RoleCrud;
+use Sokeio\Admin\Crud\UserCrud;
 use Illuminate\Support\Facades\Route;
 
 

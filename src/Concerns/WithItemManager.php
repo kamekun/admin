@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Concerns;
+namespace Sokeio\Admin\Concerns;
 
-use BytePlatform\Admin\BaseManager;
-use BytePlatform\Concerns\WithHelpers;
+use Sokeio\Admin\BaseManager;
+use Sokeio\Concerns\WithHelpers;
 
 trait WithItemManager
 {

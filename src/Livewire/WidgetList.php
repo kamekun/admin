@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
+use Sokeio\Component;
 use Livewire\Attributes\Reactive;
-use BytePlatform\Admin\Dashboard as ByteAdminDashboard;
+use Sokeio\Admin\Dashboard as ByteAdminDashboard;
 
 class WidgetList extends Component
 {

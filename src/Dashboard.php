@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\ArrayStatus;
+use Sokeio\ArrayStatus;
 
 class Dashboard
 {

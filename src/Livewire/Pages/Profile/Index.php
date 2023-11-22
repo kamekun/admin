@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Pages\Profile;
+namespace Sokeio\Admin\Livewire\Pages\Profile;
 
-use BytePlatform\Component;
+use Sokeio\Component;
 
 class Index extends Component
 {

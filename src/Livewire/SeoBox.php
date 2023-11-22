@@ -1,19 +1,19 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Concerns\WithFormData;
-use BytePlatform\Item;
-use BytePlatform\Admin\ItemManager;
+use Sokeio\Component;
+use Sokeio\Admin\Concerns\WithFormData;
+use Sokeio\Item;
+use Sokeio\Admin\ItemManager;
 
 class SeoBox extends Component
 {
     use WithFormData;
     protected function ItemManager()
     {
-        if (!class_exists('\\BytePlatform\Admin\\Seo\\Models\\SEO')) return null;
-        return ItemManager::Form()->Model(\BytePlatform\Admin\Seo\Models\SEO::class)->Item([
+        if (!class_exists('\\Sokeio\Admin\\Seo\\Models\\SEO')) return null;
+        return ItemManager::Form()->Model(\Sokeio\Admin\Seo\Models\SEO::class)->Item([
             Item::Add('title')->Column(Item::Col12)->Title('Title'),
             Item::Add('description')->Column(Item::Col12)->Title('Description')->Type('textarea'),
             Item::Add('image')->Column(Item::Col12)->Title('Image')->Type('images'),

@@ -1,11 +1,11 @@
 <?php
 
-namespace BytePlatform\Admin\Concerns;
+namespace Sokeio\Admin\Concerns;
 
-use BytePlatform\DataForm;
-use BytePlatform\ItemForm;
-use BytePlatform\ItemForms;
-use BytePlatform\Concerns\WithPagination;
+use Sokeio\DataForm;
+use Sokeio\ItemForm;
+use Sokeio\ItemForms;
+use Sokeio\Concerns\WithPagination;
 
 trait WithTableData
 {

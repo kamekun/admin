@@ -1,6 +1,6 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Traits\Macroable;

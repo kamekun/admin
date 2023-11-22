@@ -1,6 +1,6 @@
 <?php
 
-namespace BytePlatform\Admin\Menu;
+namespace Sokeio\Admin\Menu;
 
 use Illuminate\Support\Facades\Route;
 

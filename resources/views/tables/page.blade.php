@@ -5,7 +5,25 @@
 @endphp
 <div class="table-page">
     <div class="page-header d-print-none">
+
         <div class="container-fluid">
+            <div class="row g-2 align-items-center">
+                <div class="col">
+                    <!-- Page pre-title -->
+                    <div class="page-pretitle">
+                        Overview
+                    </div>
+                    <h2 class="page-title">
+                        {{ $page_title }}
+                    </h2>
+                </div>
+                <!-- Page title actions -->
+                <div class="col-auto ms-auto d-print-none">
+                    <div class="btn-list">
+                     
+                    </div>
+                </div>
+            </div>
             @if ($formSearchManger)
                 <div class="accordion" wire:ignore id="{{ $formSearchId }}-parent">
                     <div class="accordion-item">
@@ -41,8 +59,6 @@
                         </div>
                     </div>
                 </div>
-            @else
-                <div class="p-2 fs-2 ps-2  text-bg-blue bg-blue rounded-2"> {{ $page_title }}</div>
             @endif
         </div>
     </div>

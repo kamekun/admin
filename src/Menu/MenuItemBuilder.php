@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Menu;
+namespace Sokeio\Admin\Menu;
 
-use BytePlatform\Admin\Facades\Menu;
-use BytePlatform\Admin\HtmlBuilder;
+use Sokeio\Admin\Facades\Menu;
+use Sokeio\Admin\HtmlBuilder;
 
 class MenuItemBuilder extends HtmlBuilder
 {

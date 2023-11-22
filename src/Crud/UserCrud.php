@@ -1,13 +1,13 @@
 <?php
 
-namespace BytePlatform\Admin\Crud;
+namespace Sokeio\Admin\Crud;
 
-use BytePlatform\Admin\Button;
-use BytePlatform\Admin\CrudManager;
-use BytePlatform\Item;
-use BytePlatform\Admin\ItemManager;
-use BytePlatform\Models\Role;
-use BytePlatform\Models\User;
+use Sokeio\Admin\Button;
+use Sokeio\Admin\CrudManager;
+use Sokeio\Item;
+use Sokeio\Admin\ItemManager;
+use Sokeio\Models\Role;
+use Sokeio\Models\User;
 
 class UserCrud extends CrudManager
 {
@@ -188,7 +188,7 @@ class UserCrud extends CrudManager
                         });
                     }),
                     Item::Add('PermissionIds')->Title('Permissions')->Column(Item::Col12)->Type('toggle-multiple')->DataOption(function () {
-                        return \BytePlatform\Admin\Models\Permission::all()->map(function ($item) {
+                        return \Sokeio\Admin\Models\Permission::all()->map(function ($item) {
                             return [
                                 'value' => $item->id,
                                 'text' => $item->name

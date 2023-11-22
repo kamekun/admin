@@ -295,7 +295,7 @@
                                             <path d="M12 12l0 .01"></path>
                                             <path d="M3 13a20 20 0 0 0 18 0"></path>
                                         </svg>
-                                        Worked at: <strong>BytePlatform\Admin Technology</strong>
+                                        Worked at: <strong>Sokeio\Admin Technology</strong>
                                     </div>
                                     <div class="mb-2">
                                         <!-- Download SVG icon from http://tabler-icons.io/i/home -->
@@ -364,17 +364,17 @@
                                     <h2 class="card-title">About Me</h2>
                                     <div>
                                         <p>
-                                            BytePlatform\Admin Technology is a software company specializing in providing
+                                            Sokeio\Admin Technology is a software company specializing in providing
                                             Outsourcing and Product services for Website, Mobile, Blockchain, and
-                                            DevOps. With a mission to create breakthrough IT solutions, BytePlatform\Admin has
+                                            DevOps. With a mission to create breakthrough IT solutions, Sokeio\Admin has
                                             become a trusted partner of many businesses worldwide.
 
                                         </p>
                                         <p>Contact:</p>
                                         <p>Website: https://bit-sudo.com
                                         </p>
-                                        <p>LinkedIn: https://linkedin.com/company/BytePlatform\Admin</p>
-                                        <p>Github: https://github.com/BytePlatform\Admin</p>
+                                        <p>LinkedIn: https://linkedin.com/company/Sokeio\Admin</p>
+                                        <p>Github: https://github.com/Sokeio\Admin</p>
                                         <p>Email: nguyenvanhaudev@gmail.com</p>
                                     </div>
                                 </div>

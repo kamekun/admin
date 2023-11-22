@@ -1,11 +1,11 @@
 <?php
 
-namespace BytePlatform\Admin\Menu;
+namespace Sokeio\Admin\Menu;
 
 use Illuminate\Support\Facades\Request;
-use BytePlatform\Admin\HtmlBuilder;
+use Sokeio\Admin\HtmlBuilder;
 use Illuminate\Support\Str;
-use BytePlatform\Admin\Facades\Menu;
+use Sokeio\Admin\Facades\Menu;
 
 class MenuBuilder extends HtmlBuilder
 {

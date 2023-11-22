@@ -16,10 +16,9 @@
                     </div>
                 </div>
                 <div class="col d-flex flex-column">
-                    <livewire:theme::pages.setting.form :$tabActive wire:key='setting-{{ $tabActiveIndex }}' />
+                    <livewire:admin::pages.setting.form :$tabActive wire:key='setting-{{ $tabActiveIndex }}' />
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>

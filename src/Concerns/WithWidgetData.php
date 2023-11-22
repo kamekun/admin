@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Concerns;
+namespace Sokeio\Admin\Concerns;
 
-use BytePlatform\Admin\Dashboard;
+use Sokeio\Admin\Dashboard;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Reactive;
 

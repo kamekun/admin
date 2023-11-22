@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Facades\Locale;
+use Sokeio\Component;
+use Sokeio\Facades\Locale;
 
 class Languages extends Component
 {

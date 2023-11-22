@@ -1,5 +1,5 @@
 {
-    "name": "byteplatform/admin",
+    "name": "sokeio/admin",
     "description": "",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "extra": {
         "laravel": {
-            "providers": ["BytePlatform\\Admin\\AdminServiceProvider"],
+            "providers": ["Sokeio\\Admin\\AdminServiceProvider"],
             "aliases": {}
         }
     },
@@ -19,9 +19,9 @@
             "helpers/function.php"
         ],
         "psr-4": {
-            "BytePlatform\\Admin\\": "src",
-            "BytePlatform\\Admin\\Database\\Factories\\": "database/factories",
-            "BytePlatform\\Admin\\Database\\Seeders\\": "database/seeders"
+            "Sokeio\\Admin\\": "src",
+            "Sokeio\\Admin\\Database\\Factories\\": "database/factories",
+            "Sokeio\\Admin\\Database\\Seeders\\": "database/seeders"
         }
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
 use Illuminate\Support\Str;
-use BytePlatform\Component;
-use BytePlatform\Admin\Dashboard;
-use BytePlatform\DataForm;
+use Sokeio\Component;
+use Sokeio\Admin\Dashboard;
+use Sokeio\DataForm;
 
 class SettingWidget extends Component
 {

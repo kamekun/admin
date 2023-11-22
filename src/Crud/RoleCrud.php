@@ -1,12 +1,12 @@
 <?php
 
-namespace BytePlatform\Admin\Crud;
+namespace Sokeio\Admin\Crud;
 
-use BytePlatform\Admin\Button;
-use BytePlatform\Admin\CrudManager;
-use BytePlatform\Item;
-use BytePlatform\Admin\ItemManager;
-use BytePlatform\Models\Role;
+use Sokeio\Admin\Button;
+use Sokeio\Admin\CrudManager;
+use Sokeio\Item;
+use Sokeio\Admin\ItemManager;
+use Sokeio\Models\Role;
 
 class RoleCrud extends CrudManager
 {
@@ -116,7 +116,7 @@ class RoleCrud extends CrudManager
                     Item::Add('name')->Title('Name')->Column(Item::Col12)->Type('readonly'),
                     Item::Add('selectIds')->Title('Name')->InputHidden()->Attribute(' wire:get-value="selectIds" '),
                     Item::Add('PermissionIds')->Title('Permissions')->Column(Item::Col12)->Type('toggle-multiple')->DataOption(function () {
-                        return \BytePlatform\Admin\Models\Permission::all()->map(function ($item) {
+                        return \Sokeio\Admin\Models\Permission::all()->map(function ($item) {
                             return [
                                 'value' => $item->id,
                                 'text' => $item->name

@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Facades;
+namespace Sokeio\Admin\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use BytePlatform\Admin\Menu\MenuBuilder;
+use Sokeio\Admin\Menu\MenuBuilder;
 
 /**
  * 
@@ -28,12 +28,12 @@ use BytePlatform\Admin\Menu\MenuBuilder;
  * @method static void Register($callback)
  * @method static void DoRegister()
  *
- * @see \BytePlatform\Admin\Menu\MenuManager
+ * @see \Sokeio\Admin\Menu\MenuManager
  */
 class Menu extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \BytePlatform\Admin\Menu\MenuManager::class;
+        return \Sokeio\Admin\Menu\MenuManager::class;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace BytePlatform\Admin\Facades;
+namespace Sokeio\Admin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Facade;
  * 
  * 
  *
- * @see \BytePlatform\Admin\Facades\SettingForm
+ * @see \Sokeio\Admin\Facades\SettingForm
  * 
  */
 /*
-        use BytePlatform\Admin\Facades\SettingForm;
+        use Sokeio\Admin\Facades\SettingForm;
 
-        SettingForm::Register(function (\BytePlatform\Admin\ItemManager $item) {
+        SettingForm::Register(function (\Sokeio\Admin\ItemManager $item) {
             return $item;
         });
 
@@ -28,6 +28,6 @@ class SettingForm extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \BytePlatform\Admin\FormCollection::class;
+        return \Sokeio\Admin\FormCollection::class;
     }
 }

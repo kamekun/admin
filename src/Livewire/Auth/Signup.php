@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Auth;
+namespace Sokeio\Admin\Livewire\Auth;
 
-use BytePlatform\Component;
+use Sokeio\Component;
 use Illuminate\Support\Facades\Auth;
 
 class Signup extends Component
@@ -27,7 +27,7 @@ class Signup extends Component
         $user->status = 1;
         $user->save();
         if ($role = env('BYTE_SIGUP_ROLE_DEFAULT')) {
-            $role =   (config('byte.model.role', \BytePlatform\Admin\Models\Role::class))::where('slug', $role)->first();
+            $role =   (config('byte.model.role', \Sokeio\Admin\Models\Role::class))::where('slug', $role)->first();
             if ($role)
                 $user->roles()->sync([$role->id]);
         }

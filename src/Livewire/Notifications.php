@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Models\Notification;
+use Sokeio\Component;
+use Sokeio\Models\Notification;
 use Livewire\Attributes\On;
 
 class Notifications extends Component

@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Facades\Shortcode;
+use Sokeio\Component;
+use Sokeio\Admin\Facades\Shortcode;
 
 class ShortcodeSetting extends Component
 {

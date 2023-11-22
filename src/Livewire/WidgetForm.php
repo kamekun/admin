@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Dashboard;
-use BytePlatform\Admin\Concerns\WithFormData;
+use Sokeio\Component;
+use Sokeio\Admin\Dashboard;
+use Sokeio\Admin\Concerns\WithFormData;
 use Livewire\Attributes\Reactive;
 
 class WidgetForm extends Component

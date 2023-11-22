@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Dashboard;
-use BytePlatform\Admin\Concerns\WithTablePageData;
+use Sokeio\Component;
+use Sokeio\Admin\Dashboard;
+use Sokeio\Admin\Concerns\WithTablePageData;
 use Livewire\Attributes\Reactive;
 
 class WidgetTable extends Component

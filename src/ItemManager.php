@@ -1,6 +1,6 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
 
 class ItemManager extends BaseManager

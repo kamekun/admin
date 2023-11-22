@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Concerns\WithFormData;
+use Sokeio\Component;
+use Sokeio\Admin\Concerns\WithFormData;
 use Livewire\Attributes\Reactive;
 
 class Form extends Component

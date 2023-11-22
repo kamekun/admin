@@ -1,6 +1,6 @@
 <?php
 
-namespace BytePlatform\Admin\Concerns;
+namespace Sokeio\Admin\Concerns;
 
 trait WithFormPageData
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BytePlatform\Admin\Crud;
+namespace Sokeio\Admin\Crud;
 
-use BytePlatform\Admin\Button;
-use BytePlatform\Admin\CrudManager;
-use BytePlatform\Item;
-use BytePlatform\Admin\ItemManager;
-use BytePlatform\Models\Permission;
+use Sokeio\Admin\Button;
+use Sokeio\Admin\CrudManager;
+use Sokeio\Item;
+use Sokeio\Admin\ItemManager;
+use Sokeio\Models\Permission;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 

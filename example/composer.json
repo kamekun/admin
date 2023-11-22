@@ -9,8 +9,8 @@
   "license": "MIT",
   "require": {
     "php": "^8.1",
-    "byteplatform/byteplatform": "dev-main",
-    "byteplatform/admin": "*",
+    "sokeio/sokeio": "dev-main",
+    "sokeio/admin": "*",
     "guzzlehttp/guzzle": "^7.2",
     "laravel/framework": "^10.10",
     "laravel/sanctum": "^3.2",

@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Concerns;
+namespace Sokeio\Admin\Concerns;
 
-use BytePlatform\ItemForm;
+use Sokeio\ItemForm;
 
 trait WithFormData
 {

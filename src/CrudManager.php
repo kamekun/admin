@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\Admin\Livewire\Form;
-use BytePlatform\Admin\Livewire\FormPage;
-use BytePlatform\Admin\Livewire\TablePage;
+use Sokeio\Admin\Livewire\Form;
+use Sokeio\Admin\Livewire\FormPage;
+use Sokeio\Admin\Livewire\TablePage;
 use Illuminate\Routing\RouteAction;
 use Illuminate\Support\Facades\Route;
 
@@ -17,7 +17,7 @@ class CrudManager
     /**
      * Get config for form page
      *
-     * @return \BytePlatform\Admin\ItemManager
+     * @return \Sokeio\Admin\ItemManager
      */
     public function FormPage()
     {
@@ -26,7 +26,7 @@ class CrudManager
     /**
      * Get config for table page
      *
-     * @return \BytePlatform\Admin\ItemManager
+     * @return \Sokeio\Admin\ItemManager
      */
     public function TablePage()
     {
@@ -54,7 +54,7 @@ class CrudManager
         if (!$crudClass)  $crudClass = get_called_class();
         if (!$name) $name = $url;
         /**
-         * @var \BytePlatform\Admin\CrudManager $crud The class instance.
+         * @var \Sokeio\Admin\CrudManager $crud The class instance.
          */
         $crud = app($crudClass);
         if (!$crud) return;

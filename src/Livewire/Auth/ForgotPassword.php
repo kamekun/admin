@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Auth;
+namespace Sokeio\Admin\Livewire\Auth;
 
-use BytePlatform\Component;
+use Sokeio\Component;
 use Illuminate\Support\Facades\Auth;
 
 class ForgotPassword extends Component

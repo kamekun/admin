@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\Laravel\WithHookListener;
+use Sokeio\Laravel\WithHookListener;
 
 class FormCollection
 {

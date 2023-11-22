@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\Item;
+use Sokeio\Item;
 
 class Widget extends BaseManager
 {

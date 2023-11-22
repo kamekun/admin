@@ -1,13 +1,13 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Pages\Profile;
+namespace Sokeio\Admin\Livewire\Pages\Profile;
 
-use BytePlatform\Component;
-use BytePlatform\Item;
-use BytePlatform\ItemForm;
-use BytePlatform\Admin\ItemManager;
-use BytePlatform\Admin\Models\User;
-use BytePlatform\Admin\Concerns\WithItemManager;
+use Sokeio\Component;
+use Sokeio\Item;
+use Sokeio\ItemForm;
+use Sokeio\Admin\ItemManager;
+use Sokeio\Admin\Models\User;
+use Sokeio\Admin\Concerns\WithItemManager;
 
 class Edit extends Component
 {

@@ -11,17 +11,17 @@
 |
 */
 
-use BytePlatform\Admin\Livewire\ShortcodeSetting;
+use Sokeio\Admin\Livewire\ShortcodeSetting;
 use Illuminate\Support\Facades\Route;
-use BytePlatform\Admin\Livewire\Auth\ForgotPassword;
-use BytePlatform\Admin\Livewire\Auth\Login;
-use BytePlatform\Admin\Livewire\Auth\Signup;
+use Sokeio\Admin\Livewire\Auth\ForgotPassword;
+use Sokeio\Admin\Livewire\Auth\Login;
+use Sokeio\Admin\Livewire\Auth\Signup;
 
 Route::group(['middleware' => ['web', 'auth']], function () {
     Route::post('shortcode-setting/', ShortcodeSetting::class)->name('shortcode-setting');
 });
 
-Route::prefix(adminUrl())->middleware(\BytePlatform\Middleware\ThemeAdmin::class)->group(function () {
+Route::prefix(adminUrl())->middleware(\Sokeio\Middleware\ThemeAdmin::class)->group(function () {
     Route::name('admin.')->prefix('auth')->middleware('themelayout:none')->group(function () {
         Route::get('login', route_theme(Login::class))->name('login');
         Route::get('logout', route_theme(function () {

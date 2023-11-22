@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\Item;
+use Sokeio\Item;
 use Illuminate\Support\Traits\Macroable;
 
 class FieldView
@@ -53,7 +53,7 @@ class FieldView
     }
     private const FIELD_DEFAULT = "text";
     /*
-    * @var \BytePlatform\Admin\Forms\FieldView[] $fields
+    * @var \Sokeio\Admin\Forms\FieldView[] $fields
     */
     private static $fields = [];
     public static function RegisterField($field)

@@ -1,10 +1,10 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Pages\ThemeOptions;
+namespace Sokeio\Admin\Livewire\Pages\ThemeOptions;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Facades\SettingForm;
-use BytePlatform\Facades\Theme;
+use Sokeio\Component;
+use Sokeio\Admin\Facades\SettingForm;
+use Sokeio\Facades\Theme;
 
 class Index extends Component
 {

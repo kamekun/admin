@@ -1,10 +1,10 @@
 <?php
 
-use BytePlatform\Action;
-use BytePlatform\Facades\Platform;
-use BytePlatform\Admin\FieldView;
-use BytePlatform\Item;
-use BytePlatform\Admin\Widget;
+use Sokeio\Action;
+use Sokeio\Facades\Platform;
+use Sokeio\Admin\FieldView;
+use Sokeio\Item;
+use Sokeio\Admin\Widget;
 
 return [
     'name' => 'Admin',

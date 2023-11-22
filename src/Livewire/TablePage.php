@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Concerns\WithTablePageData;
+use Sokeio\Component;
+use Sokeio\Admin\Concerns\WithTablePageData;
 
 class TablePage extends Component
 {

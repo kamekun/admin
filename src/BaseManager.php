@@ -1,8 +1,8 @@
 <?php
 
-namespace BytePlatform\Admin;
+namespace Sokeio\Admin;
 
-use BytePlatform\ItemCallback;
+use Sokeio\ItemCallback;
 
 class BaseManager extends ItemCallback
 {

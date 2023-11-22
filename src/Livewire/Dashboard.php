@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire;
+namespace Sokeio\Admin\Livewire;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Dashboard as ByteAdminDashboard;
+use Sokeio\Component;
+use Sokeio\Admin\Dashboard as ByteAdminDashboard;
 use Livewire\Attributes\Computed;
 
 class Dashboard extends Component

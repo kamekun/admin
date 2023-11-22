@@ -1,11 +1,11 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Pages\ThemeOptions;
+namespace Sokeio\Admin\Livewire\Pages\ThemeOptions;
 
-use BytePlatform\Component;
-use BytePlatform\Facades\Theme;
-use BytePlatform\ItemForm;
-use BytePlatform\Admin\Concerns\WithItemManager;
+use Sokeio\Component;
+use Sokeio\Facades\Theme;
+use Sokeio\ItemForm;
+use Sokeio\Admin\Concerns\WithItemManager;
 
 class Form extends Component
 {

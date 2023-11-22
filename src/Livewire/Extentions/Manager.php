@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Extentions;
+namespace Sokeio\Admin\Livewire\Extentions;
 
-use BytePlatform\Component;
-use BytePlatform\Concerns\WithPagination;
+use Sokeio\Component;
+use Sokeio\Concerns\WithPagination;
 
 class Manager extends Component
 {

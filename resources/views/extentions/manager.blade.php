@@ -15,7 +15,7 @@
             </select>
         </div>
         <div class="col">
-            {{ $dataItems->links('byte::pagination') }}
+            {{ $dataItems->links('sokeio::pagination') }}
         </div>
     </div>
 </div>

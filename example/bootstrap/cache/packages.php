@@ -1,25 +1,25 @@
 <?php return array (
-  'byteplatform/admin' => 
+  'sokeio/admin' => 
   array (
     'providers' => 
     array (
-      0 => 'BytePlatform\\Admin\\AdminServiceProvider',
+      0 => 'Sokeio\\Admin\\AdminServiceProvider',
     ),
     'aliases' => 
     array (
     ),
   ),
-  'byteplatform/byteplatform' => 
+  'sokeio/sokeio' => 
   array (
     'providers' => 
     array (
-      0 => 'BytePlatform\\ByteServiceProvider',
+      0 => 'Sokeio\\ByteServiceProvider',
     ),
     'aliases' => 
     array (
     ),
   ),
-  'byteplatform/laravel' => 
+  'sokeio/laravel' => 
   array (
     'providers' => 
     array (

@@ -1,9 +1,9 @@
 <?php
 
-namespace BytePlatform\Admin\Livewire\Pages\Setting;
+namespace Sokeio\Admin\Livewire\Pages\Setting;
 
-use BytePlatform\Component;
-use BytePlatform\Admin\Facades\SettingForm;
+use Sokeio\Component;
+use Sokeio\Admin\Facades\SettingForm;
 
 class Index extends Component
 {
