@@ -8,7 +8,7 @@
         @endif
         <!-- Photo -->
         <div class="img-responsive img-responsive-21x9 card-img-top"
-            style="background-image: url('{{ route('byte.screenshot', ['types' => $ExtentionType, 'id' => $item->getId()]) }}')">
+            style="background-image: url('{{ route('sokeio.screenshot', ['types' => $ExtentionType, 'id' => $item->getId()]) }}')">
         </div>
         <div class="card-body p-3">
             <h3 class="card-title">{{ $item->getTitle() }} <span
