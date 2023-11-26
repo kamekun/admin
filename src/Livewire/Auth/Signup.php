@@ -20,14 +20,14 @@ class Signup extends Component
     public function DoWork()
     {
         $this->validate();
-        $user = new (config('byte.model.user'));
+        $user = new (config('sokeio.model.user'));
         $user->email = $this->email;
         $user->name = $this->name;
         $user->password = $this->password;
         $user->status = 1;
         $user->save();
         if ($role = env('SOKEIO_SIGUP_ROLE_DEFAULT')) {
-            $role =   (config('byte.model.role', \Sokeio\Admin\Models\Role::class))::where('slug', $role)->first();
+            $role =   (config('sokeio.model.role', \Sokeio\Admin\Models\Role::class))::where('slug', $role)->first();
             if ($role)
                 $user->roles()->sync([$role->id]);
         }

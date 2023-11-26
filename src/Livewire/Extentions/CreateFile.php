@@ -26,8 +26,8 @@ class CreateFile extends Component
     {
         return view('admin::extentions.create-file', [
             'templates' => [
-                ...config('byte.stubs.list-files.common'),
-                ...config('byte.stubs.list-files.' . $this->ExtentionType)
+                ...config('sokeio.stubs.list-files.common'),
+                ...config('sokeio.stubs.list-files.' . $this->ExtentionType)
             ],
         ]);
     }
