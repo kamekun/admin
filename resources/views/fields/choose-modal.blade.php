@@ -7,9 +7,9 @@
     @if (!$item->getManager()->IsTable())
         <label class="form-label">{{ $titleField }}</label>
     @endif
-    <button {!! $item->getAttribute() ?? '' !!} byte:modal-choose="{{ $dataOptions['modal-choose'] ?? '' }}"
-        byte:modal="{{ $dataOptions['modal'] ?? '' }}" byte:modal-title="{{ $dataOptions['modal-title'] ?? '' }}"
-        byte:modal-size="{{ $dataOptions['modal-size'] ?? '' }}" byte:model="{{ $modelField }}" class="btn btn-blue btn-sm">
+    <button {!! $item->getAttribute() ?? '' !!} sokeio:modal-choose="{{ $dataOptions['modal-choose'] ?? '' }}"
+        sokeio:modal="{{ $dataOptions['modal'] ?? '' }}" sokeio:modal-title="{{ $dataOptions['modal-title'] ?? '' }}"
+        sokeio:modal-size="{{ $dataOptions['modal-size'] ?? '' }}" sokeio:model="{{ $modelField }}" class="btn btn-blue btn-sm">
         <span class="dz-default dz-message">Choose {{ $titleField }}</span>
 
     </button>

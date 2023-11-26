@@ -25,7 +25,7 @@ class Index extends Component
     {
         page_title(str($this->ExtentionType)->studly());
         return view('admin::extentions.index', [
-            'mode_dev' => byte_mode_dev()
+            'mode_dev' => sokeio_mode_dev()
         ]);
     }
 }

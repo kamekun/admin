@@ -16,8 +16,8 @@
                     <div class="btn-list">
                         @if (!$locked)
                             <a class="btn btn-primary d-none d-sm-inline-block"
-                                byte:modal="{{ route('admin.widget-setting') }}" byte:modal-size="modal-lg"
-                                byte:modal-title="Setting Widget">
+                                sokeio:modal="{{ route('admin.widget-setting') }}" sokeio:modal-size="modal-lg"
+                                sokeio:modal-title="Setting Widget">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-cog"
                                     width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
                                     stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

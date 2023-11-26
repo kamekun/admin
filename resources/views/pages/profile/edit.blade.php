@@ -25,8 +25,8 @@
                                     login
                                     codes.</p>
                                 <div>
-                                    <a byte:modal='{{ route('admin.user-change-password-form') }}'
-                                        byte:modal-title="Change password" class="btn">
+                                    <a sokeio:modal='{{ route('admin.user-change-password-form') }}'
+                                        sokeio:modal-title="Change password" class="btn">
                                         Set new password
                                     </a>
                                 </div>

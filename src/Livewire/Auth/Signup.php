@@ -26,7 +26,7 @@ class Signup extends Component
         $user->password = $this->password;
         $user->status = 1;
         $user->save();
-        if ($role = env('BYTE_SIGUP_ROLE_DEFAULT')) {
+        if ($role = env('SOKEIO_SIGUP_ROLE_DEFAULT')) {
             $role =   (config('byte.model.role', \Sokeio\Admin\Models\Role::class))::where('slug', $role)->first();
             if ($role)
                 $user->roles()->sync([$role->id]);

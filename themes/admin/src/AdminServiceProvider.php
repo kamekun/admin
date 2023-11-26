@@ -142,7 +142,7 @@ class AdminServiceProvider extends ServiceProvider
                         echo '</li>';
                     } else if ($item->getValueType() == MenuItemBuilder::ITEM_COMPONENT) {
                         echo '<li id="' . $item->getId() . '" class="nav-item" data-sort="' . $item->getValueSort() . '">';
-                        echo '<a class="nav-link   ' . $classActive . '" href="#" byte:component="' . $item->getValueLink() . '">';
+                        echo '<a class="nav-link   ' . $classActive . '" href="#" sokeio:component="' . $item->getValueLink() . '">';
                         if ($icon = $item->getValueIcon()) {
                             echo '<span class="nav-link-icon d-md-none d-lg-inline-block">';
                             echo $icon;

@@ -2,7 +2,7 @@
     $dataOptions = $item->getDataOption();
     $modelField = $item->getModelField();
     $fieldOption = $item->getFieldOption();
-    $domain_name = isset($fieldOption['domain']) ? $fieldOption['domain'] : env('BYTE_SUB_DOMAIN', '');
+    $domain_name = isset($fieldOption['domain']) ? $fieldOption['domain'] : env('SOKEIO_SUB_DOMAIN', '');
 @endphp
 <div {!! $item->getAttributeContent() !!}>
     @if (!$item->getManager()->IsTable())

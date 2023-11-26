@@ -19,8 +19,8 @@
                         <path d="M12 3v6"></path>
                     </svg>
                 </span>
-                <span byte:modal="{{ route('admin.widget-setting', ['widgetId' => $WidgetSetting['widgetId']]) }}"
-                    byte:modal-size="modal-lg" byte:modal-title="Setting Widget" class="position-absolute"
+                <span sokeio:modal="{{ route('admin.widget-setting', ['widgetId' => $WidgetSetting['widgetId']]) }}"
+                    sokeio:modal-size="modal-lg" sokeio:modal-title="Setting Widget" class="position-absolute"
                     style="z-index:100;top:5px;right:25px">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="24"
                         height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"

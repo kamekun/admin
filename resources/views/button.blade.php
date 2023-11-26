@@ -2,25 +2,25 @@
     $buttonAtrr = $button->getAttribute() ?? '';
     $buttonClass = $button->getClass() ?? '';
     if ($url = $button->getModalUrl()) {
-        $buttonAtrr .= ' byte:modal="' . $url . '" ';
+        $buttonAtrr .= ' sokeio:modal="' . $url . '" ';
         if ($size = $button->getModalSize()) {
-            $buttonAtrr .= ' byte:modal-size="' . $size . '" ';
+            $buttonAtrr .= ' sokeio:modal-size="' . $size . '" ';
         }
         if ($title = $button->getModalTitle()) {
-            $buttonAtrr .= ' byte:modal-title="' . $title . '" ';
+            $buttonAtrr .= ' sokeio:modal-title="' . $title . '" ';
         }
     }
     
     if ($confirm = $button->getConfirm()) {
-        $buttonAtrr .= ' byte:confirm="' . $confirm . '" ';
+        $buttonAtrr .= ' sokeio:confirm="' . $confirm . '" ';
         if ($confirmYes = $button->getConfirmYes()) {
-            $buttonAtrr .= ' byte:confirm-yes="' . $confirmYes . '" ';
+            $buttonAtrr .= ' sokeio:confirm-yes="' . $confirmYes . '" ';
         }
         if ($confirmNo = $button->getConfirmNo()) {
-            $buttonAtrr .= ' byte:confirm-no="' . $confirmNo . '" ';
+            $buttonAtrr .= ' sokeio:confirm-no="' . $confirmNo . '" ';
         }
         if ($title = $button->getConfirmTitle()) {
-            $buttonAtrr .= ' byte:confirm-title="' . $title . '" ';
+            $buttonAtrr .= ' sokeio:confirm-title="' . $title . '" ';
         }
     }
     if ($target = $button->getTarget()) {
