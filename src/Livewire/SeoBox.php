@@ -12,8 +12,8 @@ class SeoBox extends Component
     use WithFormData;
     protected function ItemManager()
     {
-        if (!class_exists('\\Sokeio\Admin\\Seo\\Models\\SEO')) return null;
-        return ItemManager::Form()->Model(\Sokeio\Admin\Seo\Models\SEO::class)->Item([
+        if (!class_exists('\\Sokeio\\Seo\\Models\\SEO')) return null;
+        return ItemManager::Form()->Model(\Sokeio\Seo\Models\SEO::class)->Item([
             Item::Add('title')->Column(Item::Col12)->Title('Title'),
             Item::Add('description')->Column(Item::Col12)->Title('Description')->Type('textarea'),
             Item::Add('image')->Column(Item::Col12)->Title('Image')->Type('images'),
