@@ -7,7 +7,7 @@
         </div>
         <div class="mb-3">
             <div class="bg-dark text-white text-bold px-3 py-2 border border-1 border-blue  rounded-2">
-                php artisan mb:{{ $ExtentionType }} <span x-text="$wire.InputName"></span> -a true -f true
+                php artisan so:make-{{ $ExtentionType }} <span x-text="$wire.InputName"></span> -a true -f true
             </div>
             <span> -a : active </span>
             <span> -f : force</span>

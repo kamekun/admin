@@ -17,7 +17,7 @@
         </div>
         <div class="mb-3">
             <div class="bg-dark text-white text-bold px-3 py-2 border border-1 border-blue  rounded-2">
-                php artisan mb:make-file <span x-text="$wire.InputName"></span> -b {{ $ExtentionId }} -t
+                php artisan so:make-file <span x-text="$wire.InputName"></span> -b {{ $ExtentionId }} -t
                 {{ $ExtentionType }} -te <span x-text="$wire.InputTemplate"></span>
             </div>
         </div>

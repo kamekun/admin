@@ -15,7 +15,7 @@ class CreateFile extends Component
     {
         if ($this->InputName != '') {
             \ob_start();
-            Artisan::call('mb:make-file', ['name' => [$this->InputName], '-t' => $this->ExtentionType, '-b' => $this->ExtentionId, '-te' => $this->InputTemplate]);
+            Artisan::call('so:make-file', ['name' => [$this->InputName], '-t' => $this->ExtentionType, '-b' => $this->ExtentionId, '-te' => $this->InputTemplate]);
             $output = \ob_get_clean();
             $this->showMessage($output);
             $this->refreshRefComponent();
