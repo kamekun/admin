@@ -12,7 +12,7 @@ class Form extends Component
     use WithItemManager;
     protected function ItemManager()
     {
-        if ($this->tabActive && ($theme = admin::SiteDataInfo()))
+        if ($this->tabActive && ($theme = Theme::SiteDataInfo()))
             return $theme->getOptions()->getFormByKey($this->tabActive);
         return null;
     }
@@ -37,7 +37,7 @@ class Form extends Component
         $this->form->CheckValidate();
         foreach ($this->form->toArray() as $key => $value) {
             if ($key == 'page_site_theme') {
-                admin::find($value)?->Active();
+                Theme::find($value)?->Active();
             } else {
                 set_setting($key, $value);
             }

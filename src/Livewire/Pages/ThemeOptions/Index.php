@@ -17,9 +17,15 @@ class Index extends Component
     }
     public function render()
     {
-        page_title('Setting');
+        $theme = Theme::SiteDataInfo();
+        if ($theme && method_exists($theme, 'getOptions')) {
+            page_title('Setting');
+            return view('admin::pages.theme-options.index', [
+                'formWithTitle' => $theme?->getOptions()?->getFormWithTitles()
+            ]);
+        }
         return view('admin::pages.theme-options.index', [
-            'formWithTitle' => admin::SiteDataInfo()?->getOptions()?->getFormWithTitles()
+            'formWithTitle' => ''
         ]);
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Sokeio\Facades\Theme;
 
 Route::group(['as' => 'admin.'], function () {
     Route::get('/plugins', route_theme(\Sokeio\Admin\Livewire\Extentions\Index::class, ['ExtentionType' => 'plugin']))->name('plugin');
