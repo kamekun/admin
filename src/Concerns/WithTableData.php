@@ -21,7 +21,7 @@ trait WithTableData
     public $pageIds = [];
     public $pageSize = 15;
     public $checkAll = false;
-    private const PAGE_SIZE = 15;
+    private static $PAGE_SIZE = 15;
     public function Booted()
     {
         $this->dataFilters->___checkProperty = false;
